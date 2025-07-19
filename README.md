@@ -3,7 +3,7 @@
 This project demonstrates a fault-tolerant web application infrastructure on AWS. The goal is to host a website that is resilient to server failures and can automatically scale based on user traffic.
 
 ## Architecture Diagram
-![Architecture Diagram]([Flowchart.png](https://github.com/darknet2004/aws-scalable-website-project/blob/main/Project%20Architecture/Flowchart.png?raw=true))
+![Architecture Diagram](Project Architecture/Flowchart.png)
 
 ## AWS Services Used
 - **EC2:** Provides virtual servers for hosting the web application.
