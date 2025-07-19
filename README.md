@@ -17,7 +17,7 @@ Below is a short demonstration of the project, including tests for high availabi
 
 This diagram outlines the flow of traffic from the user to the backend services.
 
-![Architecture Diagram](Project Architecture/Flowchart.png)
+![Architecture Diagram](Project-Architecture/Flowchart.png)
 
 ---
 ## 🛠️ Tech Stack & AWS Services
