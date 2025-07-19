@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My AWS Project Portfolio</title>
+    <link rel="stylesheet" href="https://vaibhav-project-aws-assets.s3.ap-south-1.amazonaws.com/style.css">
+</head>
+<body>
+    <div class="container">
+        
+        <header class="profile-header">
+            <h1>Vaibhav Sharma</h1>
+            <p class="subtitle">AWS Cloud Project Showcase</p>
+        </header>
+
+        <div class="main-content">
+            <h2>Project: Highly Available Web Architecture 🚀</h2>
+            <p>This page demonstrates a resilient and scalable web application hosted on AWS. The entire infrastructure is designed for fault tolerance, automatic scaling, and security following AWS best practices.</p>
+        </div>
+
+        <div class="project-details">
+            <div class="detail-card">
+                <h3>🌐 Application Load Balancer (ELB)</h3>
+                <ul>
+                    <li><strong>Distributes traffic</strong> across multiple Availability Zones for high availability.</li>
+                    <li><strong>Performs health checks</strong> on instances, automatically routing traffic away from unhealthy ones.</li>
+                    <li><strong>Provides a single DNS endpoint</strong>, abstracting the backend servers from the user.</li>
+                </ul>
+            </div>
+            <div class="detail-card">
+                <h3>⚙️ Auto Scaling Group (ASG)</h3>
+                <ul>
+                    <li><strong>Maintains a desired instance count</strong>, enabling self-healing by replacing failed instances.</li>
+                    <li><strong>Implements Target Tracking policies</strong> to scale out based on CPU utilization during traffic spikes.</li>
+                    <li><strong>Scales in automatically</strong> to reduce costs during quiet periods.</li>
+                </ul>
+            </div>
+            <div class="detail-card">
+                <h3>📦 Amazon S3 for Static Assets</h3>
+                 <ul>
+                    <li><strong>Decouples static content</strong> (CSS, images) from the application servers.</li>
+                    <li><strong>Reduces server load</strong>, allowing EC2 instances to focus on dynamic content.</li>
+                    <li><strong>Provides a highly durable and cost-effective</strong> storage solution for web assets.</li>
+                </ul>
+            </div>
+            <div class="detail-card">
+                <h3>🛡️ IAM & Security</h3>
+                <ul>
+                    <li><strong>Uses IAM Roles</strong> with least-privilege permissions for EC2, avoiding stored credentials.</li>
+                    <li><strong>Implements Security Groups</strong> as a stateful firewall to control traffic to instances.</li>
+                    <li><strong>Ensures a secure and compliant</strong> infrastructure by separating permissions and access.</li>
+                </ul>
+            </div>
+        </div>
+
+        <footer class="page-footer">
+            <p>Built with EC2, S3, ELB, ASG, and IAM.</p>
+            <img src="https://vaibhav-project-aws-assets.s3.ap-south-1.amazonaws.com/Amazon_Web_Services_Logo.svg.png" alt="AWS Logo" class="footer-logo">
+        </footer>
+
+    </div>
+</body>
+</html>
